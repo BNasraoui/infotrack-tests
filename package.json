@@ -1,0 +1,27 @@
+{
+  "name": "ultimateqa-test-automation",
+  "version": "1.0.0",
+  "description": "UI Automation tests for Ultimate QA Consulting page",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\" --project=\"Mobile Safari\"",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "testing",
+    "playwright",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^20.17.25",
+    "typescript": "^5.1.3"
+  }
+}
