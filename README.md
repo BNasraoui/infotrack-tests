@@ -93,21 +93,6 @@ The tests are configured to work in CI/CD environments. The Playwright configura
 - Screenshot capture on test failure
 - HTML and list reporters for results visualization
 
-### GitHub Actions CI Pipeline
-
-This project includes a GitHub Actions workflow that:
-
-1. Automatically runs all tests on every push to the main branch and pull requests
-2. Generates an HTML test report
-3. Publishes the test report to GitHub Pages
-
-### Viewing Test Reports
-
-The latest test results are available on GitHub Pages at:
-https://bnasraoui.github.io/infotrack-tests/
-
-This report is automatically updated whenever changes are pushed to the main branch.
-
 ## Notes
 
 - The tests are designed to handle responsive behavior across different devices
